@@ -1,0 +1,6 @@
+---
+- name: Install Python 3 via Homebrew
+  package:
+    name: python3
+    state: latest
+  when: ansible_os_family == "Darwin"
