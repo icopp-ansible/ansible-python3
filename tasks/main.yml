@@ -4,3 +4,8 @@
     name: python3
     state: latest
   when: ansible_os_family == "Darwin"
+
+- name: Add workaround for distutils user installation bug
+  copy:
+    src: pydistutils.cfg
+    dest: ~/.pydistutils.cfg
