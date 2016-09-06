@@ -1,10 +1,10 @@
 # ansible-python3
 
-Install Python 3 via Homebrew. Does nothing on non-macOS platforms.
+Install Python 3 via Homebrew.
 
 ## Dependencies
 
-* [icopp.homebrew](https://github.com/icopp/ansible-homebrew) (included as repository dependency)
+* [icopp.homebrew](https://github.com/icopp/ansible-homebrew)
 
 ## Example Playbook
 
